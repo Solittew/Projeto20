@@ -1,0 +1,56 @@
+header {
+    background-color: #2B2B2B;
+    height: 150px;
+    font-family: cursive;
+    color: aliceblue;
+    text-align: center;
+    grid-area: header;
+
+}
+
+nav 
+{
+    grid-area: nav;
+    background-color: #2B2B2B;
+    color: white;
+}
+aside{
+    grid-area: aside;
+}
+main
+{
+    grid-area: main;
+    background-color: rgb(205, 245, 255);   
+}
+footer
+{
+    grid-area: footer;
+    background-color: ;
+}
+.container
+{
+    display: grid;
+    grid-template-columns:auto ;
+    grid-template-rows:10fr 5fr 15fr 7s;
+    grid-template-areas:"header aside" 
+                        "nav aside"
+                        "main aside"
+                        "footer aside"    
+    ;
+}
+body{
+    background-color: aqua;
+}
+
+#REFEIÇÕES2{
+    font-size:larger ;
+    position: absolute;
+    top: 200px;
+    left: 600px;
+}
+#BEBIDAS{
+    font-size:larger ;
+}
+#BotãoExpansivo{
+    text-align: end;
+}
