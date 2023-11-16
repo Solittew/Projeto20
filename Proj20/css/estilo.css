@@ -1,11 +1,10 @@
 header {
     background-color: #2B2B2B;
     height: 150px;
-    font-family: cursive;
+    font-family: irem;
     color: aliceblue;
     text-align: center;
     grid-area: header;
-
 }
 
 nav 
@@ -20,18 +19,24 @@ aside{
 main
 {
     grid-area: main;
-    background-color: rgb(205, 245, 255);   
+    background-color:ghostwhite;   
+    width: auto;
+    padding: 200px 0;
 }
 footer
 {
     grid-area: footer;
-    background-color: ;
+    background-color:#2B2B2B;
+    padding: 40px 0;
+    font-family: irem;
+    color: ghostwhite;
+    text-align: center;
 }
 .container
 {
     display: grid;
     grid-template-columns:auto ;
-    grid-template-rows:10fr 5fr 15fr 7s;
+    grid-template-rows:7fr 2fr 15fr 7s;
     grid-template-areas:"header aside" 
                         "nav aside"
                         "main aside"
@@ -53,4 +58,25 @@ body{
 }
 #BotãoExpansivo{
     text-align: end;
+    border-bottom-color: ghostwhite;
+}
+
+.navbar-toggler{
+    background-color: ghostwhite;
+}
+
+.cardIndex01{
+    display: block;
+    padding: 20px 0;
+}
+
+.cardIndex02
+{
+display: block;
+}
+
+.carousel01{
+    margin: auto;
+    height: 100px;
+    width: 150px;
 }
