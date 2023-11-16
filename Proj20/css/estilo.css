@@ -10,7 +10,7 @@ header {
 nav 
 {
     grid-area: nav;
-    background-color: #2B2B2B;
+    background-color:grey;
     color: white;
 }
 aside{
@@ -74,9 +74,9 @@ body{
 {
 display: block;
 }
-
-.carousel01{
-    margin: auto;
-    height: 100px;
-    width: 150px;
+.CardapioIMG{
+ text-align: center;
+}
+#carousel{
+    text-align: center;
 }
