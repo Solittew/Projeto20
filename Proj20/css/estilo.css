@@ -12,6 +12,7 @@ nav
     grid-area: nav;
     background-color:grey;
     color: white;
+    padding: 10px;
 }
 aside{
     grid-area: aside;
@@ -57,8 +58,11 @@ body{
     font-size:larger ;
 }
 #BotãoExpansivo{
-    text-align: end;
+
     border-bottom-color: ghostwhite;
+    text-align: end;
+    display: inline;
+
 }
 
 .navbar-toggler{
@@ -79,4 +83,10 @@ display: block;
 }
 #carousel{
     text-align: center;
+}
+
+.block{
+    text-align: center;
+    width: 1000px;
+    display: inline;
 }
