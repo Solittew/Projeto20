@@ -53,9 +53,18 @@ body{
     position: absolute;
     top: 200px;
     left: 600px;
+    border-style: solid;
+    background-color: aqua;
+    border-width: 8px;
 }
 #BEBIDAS{
     font-size:larger ;
+    position: absolute;
+    top: 200px;
+    left: 600px;
+    border-style: solid;
+    background-color: aqua;
+    border-width: 8px;
 }
 #BotãoExpansivo{
 
@@ -89,4 +98,12 @@ display: block;
     text-align: center;
     width: 1000px;
     display: inline;
+}
+
+.FORMBEBIDAS{
+    width: 80%;
+    height: 20px;
+    border-radius: 6px;
+    border-style:solid;
+    border-width: 8px;
 }
