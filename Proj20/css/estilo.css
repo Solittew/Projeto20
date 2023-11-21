@@ -13,6 +13,13 @@ nav
     background-color:grey;
     color: white;
     padding: 10px;
+    padding-right: 5px; /* ainda acho que da para melhorarr */
+    justify-content: flex-end;
+    display: flex;
+
+    #BotãoExpansivo{
+        border-bottom-color: ghostwhite;
+    }
 }
 aside{
     grid-area: aside;
@@ -66,13 +73,6 @@ body{
     background-color: aqua;
     border-width: 8px;
 }
-#BotãoExpansivo{
-
-    border-bottom-color: ghostwhite;
-    text-align: end;
-    display: inline;
-
-}
 
 .navbar-toggler{
     background-color: ghostwhite;
@@ -107,3 +107,40 @@ display: block;
     border-style:solid;
     border-width: 8px;
 }
+.card-img-top{
+    padding: 10px 10px 10px 10px;
+}
+.card{
+    width: 200px;
+    height: 150px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+.card:hover {
+    transform: scale(1.1);
+}
+/* edita a barra de rolagem*/
+::-webkit-scrollbar {
+    width: 12px;
+    
+}
+
+::-webkit-scrollbar-track {
+    background: darkgray;
+    
+}
+
+::-webkit-scrollbar-thumb {
+    background: gray;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+/*fim da barra de rolagem */
+
