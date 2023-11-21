@@ -34,11 +34,32 @@ main
 footer
 {
     grid-area: footer;
-    background-color:#2B2B2B;
+    background-color: gray;
     padding: 40px 0;
     font-family: irem;
     color: ghostwhite;
     text-align: center;
+
+    .box{
+        padding-left: 40px;
+        padding-right: 10px;
+        display: inline-block;
+
+
+    }
+    .box1{
+        padding-left: 40px;
+        padding-right: 10px;
+        display: inline-block;
+    }
+    .box2{
+        padding-left: 40px;
+        padding-right: 10px;
+        display: inline-block;
+
+    }
+
+
 }
 .container
 {
@@ -144,3 +165,8 @@ display: block;
 }
 /*fim da barra de rolagem */
 
+#Fim{
+    text-align: center;
+    background-color: #2B2B2B;
+    color: white;
+}
