@@ -16,10 +16,11 @@ nav
     padding-right: 5px; /* ainda acho que da para melhorarr */
     justify-content: flex-end;
     display: flex;
+}
 
-    #BotãoExpansivo{
-        border-bottom-color: ghostwhite;
-    }
+
+#BotãoExpansivo{
+    border-bottom-color: ghostwhite;
 }
 aside{
     grid-area: aside;
@@ -30,6 +31,7 @@ main
     background-color:ghostwhite;   
     width: auto;
     padding: 200px 0;
+
 }
 footer
 {
@@ -39,7 +41,7 @@ footer
     font-family: irem;
     color: ghostwhite;
     text-align: center;
-
+}
     .box{
         padding-left: 40px;
         padding-right: 10px;
@@ -56,11 +58,8 @@ footer
         padding-left: 40px;
         padding-right: 10px;
         display: inline-block;
-
     }
 
-
-}
 .container
 {
     display: grid;
@@ -76,15 +75,7 @@ body{
     background-color: aqua;
 }
 
-#REFEIÇÕES2{
-    font-size:larger ;
-    position: absolute;
-    top: 200px;
-    left: 600px;
-    border-style: solid;
-    background-color: aqua;
-    border-width: 8px;
-}
+
 #BEBIDAS{
     font-size:larger ;
     position: absolute;
@@ -132,12 +123,12 @@ display: block;
     padding: 10px 10px 10px 10px;
 }
 .card{
-    width: 200px;
-    height: 150px;
+    width: 100px;
+    height: 50px;
     background-color: #f0f0f0;
     border: 1px solid #ccc;
-    padding: 10px;
-    margin: 10px;
+    padding: 20px;
+    margin: 70px;
     cursor: pointer;
     transition: transform 0.3s ease-in-out;
 }
@@ -169,4 +160,30 @@ display: block;
     text-align: center;
     background-color: #2B2B2B;
     color: white;
+}
+
+.CardapioBox1{
+    background-color: gray;
+
+}
+.CardapioBox2{
+
+    background-color: darkgrey;
+
+}
+.CardapioBox3{
+
+    background-color: gray;
+
+}
+.CardapioBox4{
+
+    background-color: darkgray;
+
+}
+
+.Form{
+    
+    justify-content:space-between;
+    display:inline-block;
 }
