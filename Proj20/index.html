@@ -97,108 +97,113 @@
         </div>
       </div>
   </div>
-  </aside>
-  <main>
-    <!--Carrousel-->
-    <center>
-      <div class="carousel slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-            aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-            aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-            aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="Img/UnderConstruction.jpg" class="d-block w-50" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="Img/PÃO FRANCES.JPG" class="d-block w-50" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="Img/PIZZA MUSSARELA.JPG" class="d-block w-50" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
 
-      <!-- Cards -->
-      <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
-          <div class="card custom-card" onclick="RedirecionarSite()">
-            <img src="Img/CaféDaManha.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text overflow-hidden">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
+  </aside>
+
+
+  <main>
+
+        <!--Carrousel-->
+        <center>
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
             </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="Img/UnderConstruction.jpg" class="d-block w-50" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="Img/PÃO FRANCES.JPG" class="d-block w-50" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="Img/PIZZA MUSSARELA.JPG" class="d-block w-50" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+    <div class="">
+      <!--Cards-->
+      <div class="card-group">
+        <div class="card" onclick="RedirecionarSite()">
+          <img src="iMG/CaféDaManha.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Café da manha</h5>
+            <p class="card-text">COLOCAR ALGUMA COISA</p>
           </div>
         </div>
-        <div class="col">
-          <div class="card custom-card" onclick="RedirecionarSite1()">
-            <img src="Img/almoço.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text overflow-hidden">This is a short card.</p>
-            </div>
+        <div class="card" onclick="RedirecionarSite1()">
+          <img src="IMG/almoço.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Almoço</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+
           </div>
         </div>
-        <div class="col">
-          <div class="card custom-card" onclick="RedirecionarSite2()">
-            <img src="Img/jantar.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text overflow-hidden">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-            </div>
+        <div class="card" onclick="RedirecionarSite2()">
+          <img src="Img/jantar.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Jantar</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+              content. This card has even longer content than the first to show that equal height action.</p>
+
           </div>
         </div>
-        <div class="col">
-          <div class="card custom-card" onclick="RedirecionarSite3()">
-            <img src="Img/Doce.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text overflow-hidden">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-          </div>
+      </div>
+    </div>
+    <div class="card-group">
+      <div class="card" onclick="RedirecionarSite3()">
+        <img src="Img/Doce.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Doces</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            content. This content is a little bit longer.</p>
+
         </div>
-        <div class="col">
-          <div class="card custom-card" onclick="RedirecionarSite4()">
-            <img src="Img/Pizza.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text overflow-hidden">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-          </div>
+      </div>
+      <div class="card" onclick="RedirecionarSite4()">
+        <img src="Img/Pizza.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Pizzas</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+
         </div>
-        <div class="col">
-          <div class="card custom-card" onclick="RedirecionarSite5()">
-            <img src="Img/paes.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text overflow-hidden">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-          </div>
+      </div>
+      <div class="card" onclick="RedirecionarSite5()">
+        <img src="Img/paes.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Pães</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            content. This card has even longer content than the first to show that equal height action.</p>
+
         </div>
-      </div> <br><br><br><br>
+      </div>
+    </div> <br><br><br><br>
+    </div> 
 
       <div class="CardapioIMG">
-        <img src="Img/Cardapio V2.JPG" alt="">
+        <img src="img/Cardapio V2.JPG" alt="">
       </div>
     </center><br><br><br><br>
 
     <div class="form-floating">
-      <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
-        style="height: 100px"></textarea>
+      <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
       <label for="floatingTextarea2">Deixe seu comentario</label>
     </div>
 
