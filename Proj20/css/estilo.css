@@ -169,3 +169,19 @@ display: block;
     justify-content:space-between;
     display:inline-block;
 }
+.Container00{
+}
+.Container0{
+    background-color: #2B2B2B;
+    width: 50vh;
+    height: 50vh;
+    opacity: 0.5;
+}
+.Login{
+    color: black;
+}
+.conteiner{
+    display: inline-flex;
+    justify-content: flex-end;
+    padding: 5vh;
+}
