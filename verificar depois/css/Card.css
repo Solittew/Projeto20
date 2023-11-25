@@ -1,0 +1,42 @@
+.Conteiner1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Conteiner2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Card {
+    width: 300px;
+    height: 400px;
+    background-color: #202020;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+.Card:hover {
+    transform: scale(1.1);
+}
+
+.Imagem {
+    display: flex;
+    justify-content: center;
+}
+
+.Foto {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-top: 20px;
+}
+
+.texto {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Exo 2', sans-serif;
+}

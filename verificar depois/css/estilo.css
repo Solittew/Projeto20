@@ -1,0 +1,171 @@
+header {
+    background-color: #2B2B2B;
+    height: 150px;
+    font-family: 'Playfair Display', serif;
+    color: aliceblue;
+    text-align: center;
+    grid-area: header;
+    border-radius: 10px;
+    border:#555;
+}
+
+nav 
+{
+    grid-area: nav;
+    background-color:gray;
+    color: white;
+    padding: 10px;
+    padding-right: 5px; /* ainda acho que da para melhorarr */
+    justify-content: flex-end;
+    display: flex;
+    border-radius: 10px;
+}
+
+
+#BotãoExpansivo{
+    border-bottom-color: ghostwhite;
+}
+aside{
+    grid-area: aside;
+}
+main
+{
+    grid-area: main;
+    background-color:ghostwhite;   
+    width: auto;
+    padding: 200px 0;
+
+}
+footer
+{
+    grid-area: footer;
+    background-color: gray;
+    padding: 40px 0;
+    font-family: irem;
+    color: ghostwhite;
+    text-align: center;
+}
+    .box{
+        padding-left: 40px;
+        padding-right: 10px;
+        display: inline-block;
+
+
+    }
+    .box1{
+        padding-left: 40px;
+        padding-right: 10px;
+        display: inline-block;
+    }
+    .box2{
+        padding-left: 40px;
+        padding-right: 10px;
+        display: inline-block;
+    }
+
+.container
+{
+    display: grid;
+    grid-template-columns:auto ;
+    grid-template-rows:7fr 2fr 15fr 7s;
+    grid-template-areas:"header aside" 
+                        "nav aside"
+                        "main aside"
+                        "footer aside"    
+    ;
+}
+body{
+    background-color: aqua;
+}
+
+
+#BEBIDAS{
+    font-size:larger ;
+    position: absolute;
+    top: 200px;
+    left: 600px;
+    border-style: solid;
+    background-color: aqua;
+    border-width: 8px;
+}
+
+.navbar-toggler{
+    background-color: ghostwhite;
+}
+
+.cardIndex01{
+    display: block;
+    padding: 20px 0;
+}
+
+.cardIndex02
+{
+display: block;
+}
+.CardapioIMG{
+ text-align: center;
+}
+#carousel{
+    text-align: center;
+}
+
+.block{
+    text-align: center;
+    width: 1000px;
+    display: inline;
+}
+
+.FORMBEBIDAS{
+    width: 80%;
+    height: 20px;
+    border-radius: 6px;
+    border-style:solid;
+    border-width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: darkgray;
+    
+}
+
+::-webkit-scrollbar-thumb {
+    background: gray;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+/*fim da barra de rolagem */
+
+#Fim{
+    text-align: center;
+    background-color: #2B2B2B;
+    color: white;
+}
+
+.CardapioBox1{
+    background-color: gray;
+
+}
+.CardapioBox2{
+
+    background-color: darkgrey;
+
+}
+.CardapioBox3{
+
+    background-color: gray;
+
+}
+.CardapioBox4{
+
+    background-color: darkgray;
+
+}
+
+.Form{
+    
+    justify-content:space-between;
+    display:inline-block;
+}
