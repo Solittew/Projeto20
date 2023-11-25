@@ -19,3 +19,6 @@ function RedirecionarSite4(url){
 function RedirecionarSite5(url){
     window.location.href = "4.Padaria.html";
 }
+function Registrar(url){
+    window.location.href = "Cad.html";
+}
