@@ -1,3 +1,6 @@
+// Essas funcoes poluem o codigo...
+// Foi substituida por href nos botoes. 
+
 function RedirecionarSite(url){
     window.location.href = "4.Padaria.html";
 }
