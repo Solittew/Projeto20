@@ -1,81 +1,257 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
-    <title>AnimesWiki</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/estilo.css">
+  <script src="https://kit.fontawesome.com/c8fade2d41.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="JS/javascript.js"></script>
+  <link rel="shortcut icon" type="imagex/png" href="Img/Yellow Vintage Retro Outdoor Adventure Travel Logo.png">
+  <link rel="stylesheet" href="css/Card.css">
+  <title>Backery PPP</title>
 </head>
+
 <body>
-    <div class="containerIndex">
-      <header><h2>AnimesWiki</h2></header>
-      <nav><h3>
-        <a href="pagina01.html">Cadastro</a>
-        <a href="pagina02.html">Pesquisas</a>
-        <a href="noticias.html">Noticias</a>
-        <a href="pagina03.html">Tipos de anime</a>
-      </h3></nav>
 
-      <main id="mainIndex">
-        <div id="carouselIndex" class="carousel slide" data-bs-touch="false">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="img/demonslayer.jpeg" class="d-block w-100" alt="Demon Slayer" height="350" width="200">
-            </div>
-            <div class="carousel-item">
-              <img src="img/rocklee.jpg" class="d-block w-100" alt="Naruto" height="350" width="200">
-            </div>
-            <div class="carousel-item">
-              <img src="img/majinveggeta.jpeg" class="d-block w-100" alt="Dragon Ball" height="350" width="200">
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndex" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselIndex" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+  <!-- Teste para ver se o GitHub está funcionando -->
+
+  <div class="Container">
+
+    <header>
+
+
+      <i id="Pão" class="fa-solid fa-bread-slice">
+        <h1>Pradaria</h1>
+      </i>
+
+
+    </header>
+
+    <nav>
+      <div class="block">
+
+        <button type="button" class="btn btn-outline-light">Light</button>
+        <button type="button" class="btn btn-outline-light">Light</button>
+        <button type="button" class="btn btn-outline-light">Light</button>
+        <button type="button" class="btn btn-outline-light">Light</button>
+        <button type="button" class="btn btn-outline-light">Light</button>
+      </div>
+
+
+
+      <div id="BotãoExpansivo">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-list"
+            viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+          </svg>
+      </div>
+
+    </nav>
+
+    <aside>
+
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
-        <h4> 
-          Animes são uma forma popular de entretenimento que originou na cultura japonesa e se espalhou por todo o mundo. Essas histórias em quadrinhos animadas oferecem uma ampla variedade de temas, personagens e estilos, atraindo um público diverso e apaixonado. Neste texto, vamos explorar alguns dos aspectos mais destacados da cultura do anime e suas influências na sociedade contemporânea. <br><br>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="Registro">Registro</a>
+            </li><br>
+            <form class="d-flex mt-3" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form><br><br>
+            <div class="card" style="width: 18rem;">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+        </div>
+      </div>
+  </div>
 
-          História e Origem <br><br>
-          
-          O anime tem suas raízes na cultura japonesa, mais especificamente no mangá (quadrinhos) e no cinema de animação. O primeiro anime foi criado no início do século XX, mas foi na década de 1960 que o gênero começou a se popularizar, com séries como "Astro Boy" e "Kimba, o Leão Branco". A partir daí, o anime se espalhou pelo mundo, ganhando adeptos em todas as continentes. <br><br>
-          
-          Estilo e Técnicas de Produção <br><br>
-          
-          O estilo de animação do anime é caracterizado por sua coreografia fluid e detalhada, com cenas elaboradas e coloridas. A técnica de animação utilizada é chamada de "anime-style", que combina elementos de desenho animado, mangá e filmes de animação. As histórias são desenvolvidas em torno de personagens complexos e interessantes, com enredos intricados e emocionais. <br><br>
-          
-          Temas e Influências <br><br>
-          
-          O anime aborda uma ampla variedade de temas, desde a aventura e a ficção científica até o drama e o romance. Alguns dos temas mais comuns incluem: <br><br>
-          
-          * Amizade e relacionamentos: muitas histórias do anime se concentram em relações humanas, explorando temas como o amor, a traição, a perseverança e a redenção. <br><br> 
-          * Fantasia e aventura: animes como "Dragon Ball", "Naruto" e "One Piece" apresentam mundos imaginários cheios de criaturas fantásticas e aventuras emocionantes. <br><br>
-          * Sci-Fi e tecnologia: séries como "Neon Genesis Evangelion" e "Ghost in the Shell" exploram temas de ciência fiction e tecnologia avançada. <br><br>
-          * Comédia e humor: animes como "Sailor Moon" e "Ouran High School Host Club" apresentam situações cômicas e personagens divertidas. <br><br>
-          
-          Influência na Sociedade Contemporânea <br><br>
-          
-          O anime tem uma grande influência na sociedade contemporânea, especialmente na cultura pop. Algumas das influências mais notáveis incluem: <br><br>
-          
-          * Moda e beleza: os personagens do anime frequentemente têm looks únicos e estilosos, influenciando a moda e a beleza na cultura popular. <br><br>
-          * Jogos e mídias digitais: muitos animes são baseados em jogos de videogame ou outros meios digitais, como "Pokémon" e "Digimon". <br><br>
-          * Filmes e televisão: o anime tem influenciado a indústria cinematográfica e televisiva, com filmes e séries que imitam seus estilos e técnicas de produção. <br><br>
-          * Música e dança: a música e a dança também foram influenciadas pelo anime, com artistas e grupos que incorporam elementos de anime em suas performances e vídeos musicais. <br><br>
-          
-          Conclusão <br><br>
-          
-          O anime é uma forma de entretenimento popular e influente que oferece uma ampla variedade de temas e estilos. Desde a aventura e a ficção científica até o drama e o romance, o anime tem algo para todos. Sua influência na sociedade contemporânea é evidente na cultura pop, na moda e na indústria de entretenimento. Se você ainda não soubera o que é anime, agora você sabe que é hora de descobrir essa cultura fascinante e apaixonante!
-        </h4>
-      </main>
-      <footer>Feito por nós (Pedro Rodrigues e Antonio) como diria minha ex, terminamos</footer>
+
+  </aside>
+
+
+  <main>
+
+        <!--Carrousel-->
+        <center>
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="Img/UnderConstruction.jpg" class="d-block w-50" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="Img/PÃO FRANCES.JPG" class="d-block w-50" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="Img/PIZZA MUSSARELA.JPG" class="d-block w-50" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+      <!--Cards-->
+      <section id="cardsindex" class="bg-light mt-5">
+        <div class="container-lg">
+          <div class="row my-5 align-itens-center justify-content-center">
+
+            <div class="col-6 col-lg-3 col-xl-3">
+              <div class="card border-0">
+                <div class="card-body text-center py-2">
+                  <h4 class="card-title">Café da manha</h2>
+                  <img class="card-img-top" src="Img/CaféDaManha.jpeg" width="255px" height="255px">
+                  <p class="card-text mx-5 text-muted d-none d-lg-block">Insira um texto.</p>
+                  <a href="4.Padaria.html" class="btn btn-outline-secondary btn-lg mt-1">Clique aqui!</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-lg-3 col-xl-3">
+              <div class="card border-0">
+                <div class="card-body text-center py-2">
+                  <h4 class="card-title">Almoço</h2>
+                  <img class="card-img-top" src="Img/almoço.jpeg" width="255px" height="255px">
+                  <p class="card-text mx-5 text-muted d-none d-lg-block">Insira um texto.</p>
+                  <a href="2.Refeições.html" class="btn btn-outline-secondary btn-lg mt-1">Clique aqui!</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-lg-3 col-xl-3">
+              <div class="card border-0">
+                <div class="card-body text-center py-2">
+                  <h4 class="card-title">Jantar</h2>
+                  <img class="card-img-top" src="Img/jantar.jpeg" width="255px" height="255px">
+                  <p class="card-text mx-5 text-muted d-none d-lg-block">Insira um texto.</p>
+                  <a href="2.Refeições.html" class="btn btn-outline-secondary btn-lg mt-1">Clique aqui!</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-lg-3 col-xl-3">
+              <div class="card border-0">
+                <div class="card-body text-center py-2">
+                  <h4 class="card-title">Doce</h2>
+                  <img class="card-img-top" src="Img/Doce.jpeg" width="255px" height="255px">
+                  <p class="card-text mx-5 text-muted d-none d-lg-block">Insira um texto.</p>
+                  <a href="4.Padaria.html" class="btn btn-outline-secondary btn-lg mt-1">Clique aqui!</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-lg-3 col-xl-3">
+              <div class="card border-0">
+                <div class="card-body text-center py-2">
+                  <h4 class="card-title">Pizzas</h2>
+                  <img class="card-img-top" src="Img/Pizza.jpeg" width="255px" height="255px">
+                  <p class="card-text mx-5 text-muted d-none d-lg-block">Insira um texto.</p>
+                  <a href="2.Refeições.html" class="btn btn-outline-secondary btn-lg mt-1">Clique aqui!</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-lg-3 col-xl-3">
+              <div class="card border-0">
+                <div class="card-body text-center py-2">
+                  <h4 class="card-title">Pães</h2>
+                  <img class="card-img-top" src="Img/paes.jpeg" width="255px" height="255px">
+                  <p class="card-text mx-5 text-muted d-none d-lg-block">Insira um texto.</p>
+                  <a href="4.Padaria.html" class="btn btn-outline-secondary btn-lg mt-1">Clique aqui!</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <div class="CardapioIMG">
+        <img src="img/Cardapio V2.JPG" alt="">
+      </div>
+    </center><br><br><br><br>
+
+    <div class="form-floating">
+      <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px">
+      </textarea>
+      <label for="floatingTextarea2">Deixe seu comentario</label>
     </div>
-  </body>
+
+  </main>
+
+
+  <footer>
+    <div class="box">
+      <h4>São Bernardo</h4>
+      <small>Telefone: (11) 99999-9999</small>
+      <p>Rua A, 303 <br>Horário de Funcionamento: Das 6h40 às 22h10. <br> Delivery: Das 08h às 21h30</p>
+    </div>
+    <div class="box1">
+      <h4>Alphaville</h4>
+      <small>Telefone (11) 98888-8888</small>
+      <p>Rua B, 442 <br> Horário de Funcionamento: Das 6h40 às 22h10. <br> Delivery: Das 08h às 21h30</p>
+    </div>
+    <div class="box2">
+      <h4>Aeroporto de Congonhas</h4>
+      <small>Telefone (11) 97777-7777</small>
+      <p>Rua C, 019 <br> Horário de Funcionamento: Das 6h40 às 22h10. <br> Delivery: Das 08h às 21h30</p>
+    </div>
+
+
+
+  </footer>
+  <div id="Fim">
+    <p>Feito por: Kaic, Pedro, Marcos, Antonio</p>
+  </div>
+
+
+</body>
+
 </html>
