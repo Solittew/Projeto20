@@ -5,7 +5,6 @@ header {
     color: aliceblue;
     text-align: center;
     grid-area: header;
-    border-radius: 10px;
     border:#555;
 }
 
@@ -18,7 +17,6 @@ nav
     padding-right: 5px; /* ainda acho que da para melhorarr */
     justify-content: flex-end;
     display: flex;
-    border-radius: 10px;
 }
 
 
@@ -33,8 +31,7 @@ main
     grid-area: main;
     background-color:ghostwhite;   
     width: auto;
-    padding: 200px 0;
-
+    background-image: 'img/Doce.jpeg';
 }
 footer
 {
@@ -78,9 +75,11 @@ body{
     background-color: aqua;
 }
 
-
+/*.bodyBebidas{
+    background-image: url("Img/THUMB-05.JPG");
+}*/
 #BEBIDAS{
-    font-size:large ;
+    font-size:large;
     position: relative;
     top: 10px;
     left: 500px;
@@ -94,16 +93,15 @@ body{
 
 #REFEIÇÕES2{
     font-size: medium;
+    border-style: solid;
     position: relative;
     top: 10px;
     left: 500px;
-    border-style: solid;
     background-color: rgb(161, 165, 165);
     border-width: 3px;
     color: rgb(29, 27, 27);
     height: 900px;
     width: 400px;
-
 }
 
 #PADARIA {
@@ -193,7 +191,10 @@ display: block;
     justify-content:space-between;
     display:inline-block;
 }
-.Container00{
+.Container1{
+    display: ;
+    justify-content: center;
+
 }
 .Container0{
     background-color: #2B2B2B;
@@ -208,4 +209,45 @@ display: block;
     display: inline-flex;
     justify-content: flex-end;
     padding: 5vh;
+}
+.ContainerPrincipal{
+    background-color: purple;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10vh;
+}
+.ContainerPrincipal2{
+    background-color: purple;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+.container1{
+background-color: #555;
+width: 40vh;
+height: 40vh;
+}
+.container2{
+background-color: #555;
+width: 40vh;
+height: 40vh;
+}
+.container3{
+background-color: #555;
+width: 40vh;
+height: 40vh;
+}
+.container4{
+background-color: #555;
+width: 40vh;
+height: 40vh;
+}
+
+.p-1 {
+    padding-left: 5vh;
+}
+
+.p-2 {
+    padding-left: 10vh;
 }
