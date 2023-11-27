@@ -80,13 +80,44 @@ body{
 
 
 #BEBIDAS{
-    font-size:larger ;
-    position: absolute;
-    top: 200px;
-    left: 600px;
+    font-size:large ;
+    position: relative;
+    top: 10px;
+    left: 500px;
     border-style: solid;
-    background-color: aqua;
-    border-width: 8px;
+    background-color: rgb(161, 165, 165);
+    border-width: 3px;
+    color: rgb(29, 27, 27);
+    height: fit-content;
+    width: fit-content;
+}
+
+#REFEIÇÕES2{
+    font-size: medium;
+    position: relative;
+    top: 10px;
+    left: 500px;
+    border-style: solid;
+    background-color: rgb(161, 165, 165);
+    border-width: 3px;
+    color: rgb(29, 27, 27);
+    height: 900px;
+    width: 400px;
+
+}
+
+#PADARIA {
+    font-size: medium;
+    position: relative;
+    top: 10px;
+    left: 500px;
+    border-style: solid;
+    background-color: rgb(161, 165, 165);
+    border-width: 3px;
+    color: rgb(29, 27, 27);
+    height: fit-content;
+    width: fit-content;
+
 }
 
 .navbar-toggler{
@@ -115,13 +146,6 @@ display: block;
     display: inline;
 }
 
-.FORMBEBIDAS{
-    width: 80%;
-    height: 20px;
-    border-radius: 6px;
-    border-style:solid;
-    border-width: 8px;
-}
 
 ::-webkit-scrollbar-track {
     background: darkgray;
