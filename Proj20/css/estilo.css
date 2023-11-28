@@ -79,29 +79,36 @@ body{
     background-image: url("Img/THUMB-05.JPG");
 }*/
 #BEBIDAS{
-    font-size:large;
+    font-size:medium ;
     position: relative;
     top: 10px;
     left: 500px;
     border-style: solid;
-    background-color: rgb(161, 165, 165);
+    background-color: rgba(161, 165, 165, 0.37);
     border-width: 3px;
     color: rgb(29, 27, 27);
     height: fit-content;
     width: fit-content;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
 }
 
 #REFEIÇÕES2{
     font-size: medium;
-    border-style: solid;
     position: relative;
     top: 10px;
     left: 500px;
-    background-color: rgb(161, 165, 165);
+    border-style: solid;
+    background-color: rgba(161, 165, 165, 0.37);
     border-width: 3px;
-    color: rgb(29, 27, 27);
-    height: 900px;
+    color: white;
+    height: 950px;
     width: 400px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+
 }
 
 #PADARIA {
@@ -110,13 +117,17 @@ body{
     top: 10px;
     left: 500px;
     border-style: solid;
-    background-color: rgb(161, 165, 165);
+    background-color: rgba(161, 165, 165, 0.37);
     border-width: 3px;
     color: rgb(29, 27, 27);
     height: fit-content;
-    width: fit-content;
+    width: 350PX;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
 
 }
+
 
 .navbar-toggler{
     background-color: ghostwhite;
