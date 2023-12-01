@@ -22,3 +22,26 @@ function RedirecionarSite5(url){
 function Registrar(url){
     window.location.href = "Cad.html";
 }
+
+function AdicionarCarrinho() {
+    var Items = $('[name^="CheckBoxGroup"]:checked'); /* Pega as checkboxes */
+    var meuArray = [];
+
+    function VerificarItems() { /* Função para verificar se algum item foi selecionado */
+        valido = $('[name^="CheckBoxGroup"]:checked');
+        return valido.length > 0; /* Verifica a quantidade vai retornar valido ou verdadeiro ou falso */
+    }
+
+    var valido = VerificarItems(); /* Retorno do valido */
+
+    if (valido) {
+        Items.each(function(index, element) {
+            meuArray.push($(element).val());
+        });
+
+        console.log(meuArray);
+    } else {
+        alert("Coloque alguma coisa no carrinho pobre!");
+    }
+    $('Carrinho').innerHTML = meuArray.toString();
+}
