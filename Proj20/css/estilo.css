@@ -299,3 +299,6 @@ height: 40vh;
     display: flex;
     justify-content: center;
 }
+#Aguardo{
+    background-color: aqua;
+}
