@@ -23,19 +23,20 @@ function Registrar(url){
     window.location.href = "Cad.html";
 }
 
-function AdicionarCarrinho() {
+function AdicionarCarrinho(event) {
+    event.preventDefault(); /*evita que o site recarregue*/
     var Items = $('[name^="CheckBoxGroup"]:checked'); /* Pega as checkboxes */
-    var meuArray = [];
+    var meuArray = []; /*cria uma lista*/
 
     function VerificarItems() { /* Função para verificar se algum item foi selecionado */
-        valido = $('[name^="CheckBoxGroup"]:checked');
+        valido = $('[name^="CheckBoxGroup"]:checked'); /*precisei pegar duas vezes o checkbox pois se eu deixasse 1 ele ia converter em booleano*/
         return valido.length > 0; /* Verifica a quantidade vai retornar valido ou verdadeiro ou falso */
     }
 
     var valido = VerificarItems(); /* Retorno do valido */
 
     if (valido) {
-        Items.each(function(index, element) {
+        Items.each(function(index, element) { /*adiciona itens no array*/
             meuArray.push($(element).val());
         });
 
@@ -43,5 +44,5 @@ function AdicionarCarrinho() {
     } else {
         alert("Coloque alguma coisa no carrinho pobre!");
     }
-    $('Carrinho').innerHTML = meuArray.toString();
+    $('#Carrinho').html(meuArray.join('' + "<br>"));
 }
