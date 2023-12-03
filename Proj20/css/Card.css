@@ -1,11 +1,13 @@
 .Conteiner1 {
     display: flex;
     justify-content: space-evenly;
+    padding-top: 60px;
 }
 
 .Conteiner2 {
     display: flex;
     justify-content: space-evenly;
+    padding-bottom: 60px;
 }
 
 .Card {
