@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&family=Playfair+Display:ital@1&family=Saira+Extra+Condensed:wght@100&display=swap');
+
 header {
     background-color: #2B2B2B;
     height: 150px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Saira Extra Condensed', sans-serif;
     color: aliceblue;
     text-align: center;
     grid-area: header;
@@ -203,7 +206,7 @@ display: block;
     display:inline-block;
 }
 .Container1{
-    display: ;
+    display: flex;
     justify-content: center;
 
 }
@@ -236,23 +239,28 @@ display: block;
 }
 .container1{
 background-color: #555;
-width: 40vh;
+width: 30vh;
 height: 40vh;
 }
 .container2{
 background-color: #555;
-width: 40vh;
+width: 30vh;
 height: 40vh;
 }
 .container3{
 background-color: #555;
-width: 40vh;
+width: 30vh;
 height: 40vh;
 }
 .container4{
 background-color: #555;
-width: 40vh;
+width: 30vh;
 height: 40vh;
+}
+#TituloCompra{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
 }
 
 .p-1 {
@@ -261,4 +269,33 @@ height: 40vh;
 
 .p-2 {
     padding-left: 10vh;
+}
+#Titulo{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+#CardapioCardapio{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#CafeIMG{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+#Cardapio{
+    padding-left: 20%;
+}
+#Local{
+    text-align: center;
+}
+#AdicionarCarrinho{
+    text-align: center;
+}
+#DivCarrinho{
+    background-color: #555;
+    display: flex;
+    justify-content: center;
 }
