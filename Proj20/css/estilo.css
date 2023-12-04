@@ -215,6 +215,7 @@ display: block;
     width: 50vh;
     height: 50vh;
     opacity: 0.5;
+    color: white;
 }
 .Login{
     color: black;
@@ -301,4 +302,13 @@ height: 40vh;
 }
 #Aguardo{
     background-color: aqua;
+}
+#Curriculo{
+    background-color:white;
+    padding-top: 100px;
+    width: 141vh;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
