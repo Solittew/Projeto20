@@ -46,3 +46,40 @@ function AdicionarCarrinho(event) {
     }
     $('#Carrinho').html(meuArray.join('' + "<br>"));
 }
+
+function EnviarCV(event){
+    event.preventDefault();
+    var Nome = $('#NOME').val();
+    var Email = $('#EMAIL').val();
+
+    function validarEmail(EMAIL) {
+        var regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; /*valida email*/
+        return regex.test(Email); /*retorna email apos teste*/
+    }
+    if(Nome == ""){
+        alert("Insira seu nome");
+    }
+    else{
+        if(validarEmail(Email)){
+            $.ajax({
+                method: 'get',
+                url: 'curriculo.php',
+                data: {'NOME': Nome, 'EMAIL': Email},
+
+                beforeSend: function () { // Corrigido aqui
+                    $('#Aguardo').html("Aguarde...");
+                }
+            })
+            .done (function(RETORNOPHP){
+                $('#Aguardo').html(RETORNOPHP);
+            })
+
+            .fail (function(){
+                $('#Aguardo').html("Erro, tente novamente mais tarde");
+            })
+        }
+        else{
+            alert("EMAIL INVALIDO");
+        }
+    }
+}
