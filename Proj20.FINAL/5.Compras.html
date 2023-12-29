@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="https://kit.fontawesome.com/c8fade2d41.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="JS/javascript.js"></script>
+    <link rel="shortcut icon" type="imagex/png" href="Img/Yellow Vintage Retro Outdoor Adventure Travel Logo.png">
+    <link rel="stylesheet" href="css/Card.css">
+    <script src="JS/BuscaPorEndereço.js"></script>
+    <title>Backery PPP</title>
+
+    <STyle>
+        a {
+            COLOR: WHITE
+        }
+    </Style>
+</head>
+
+<body>
+
+    <!-- Teste para ver se o GitHub está funcionando -->
+
+    <div class="Container">
+
+        <header>
+
+
+            <i id="Pão" class="fa-solid fa-bread-slice">
+                <h1>Pradaria</h1>
+            </i>
+
+
+        </header>
+        <nav>
+
+            <div class="block1">
+                <i class="fa-solid fa-cart-shopping fa-2xl" onclick="RedirecionarSite6()"></i>
+
+                <span id="Botoes">
+                    <a href="1.Cardapio.html"><button type="button" class="btn btn-outline-light">Cardapio</button></a>
+                    <a href="2.Refeições.html"><button type="button"
+                            class="btn btn-outline-light">Refeições</button></a>
+                    <a href="3.Bebidas.html"><button type="button" class="btn btn-outline-light">Bebidas</button></a>
+                    <a href="Combos1.html"><button type="button" class="btn btn-outline-light">Promo 1</button></a>
+                    <a href="Combos2.html"><button type="button" class="btn btn-outline-light">Promo 2</button></a>
+                    <a href="Combos3.html"><button type="button" class="btn btn-outline-light">Promo 3</button></a>
+                    <a href="Combos4.html"><button type="button" class="btn btn-outline-light">Promo 4</button></a>
+                    <a href="Curriculo.html"><button type="button" class="btn btn-outline-light">Trabalhe
+                            conosco</button></a>
+                </span>
+                <span id="BotãoExpansivo">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor"
+                            class="bi bi-list" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                        </svg>
+                    </button>
+                </span>
+            </div>
+        </nav>
+
+        <aside>
+
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Log.html">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="Cad.html">Registro</a>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="HistoriaPadaris.html">História</a>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="QuemSomos.html">Quem Somos</a>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="Valores.html">Valores</a>
+                        </li><br>
+                        <form class="d-flex mt-3" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Pesquisa" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Pesquisa</button>
+                        </form><br><br>
+                </div>
+            </div>
+    </div>
+
+    </aside>
+
+
+    <main>
+        <form action="" method="get" id="FormlarioCompras">
+            <div id="Local" style="background-color: #555;">
+                <label for="Padarias">Selecione a padaria mais proxima: </label>
+                <select name="Padarias" id="Padarias"> <!-- Testa especialmente o aeroporto de congonhas -->
+                    <option value="1">São Bernardo do Campo</option>
+                    <option value="2">Aeroporto de Congonhas</option>
+                    <option value="3">Alphaville</option>
+                </select>
+            </div>
+            <div id="Frete">
+                <form method="get" action=".">
+                    <label>Cep:
+                        <input name="cep" type="text" id="cep" value="" size="10" maxlength="9"
+                            onblur="pesquisacep(this.value);" placeholder="Cep" /></label>
+                    <label>Rua:
+                        <input name="rua" type="text" id="rua" size="20" placeholder="Rua" /></label>
+                    <label>Bairro:
+                        <input name="bairro" type="text" id="bairro" size="20" placeholder="Bairro" /></label>
+                    <label>Cidade:
+                        <input name="cidade" type="text" id="cidade" size="20" placeholder="Cidade" /></label>
+                    <label>Estado:
+                        <input name="uf" type="text" id="uf" size="2" placeholder="Estado" /></label>
+                    <label for="numero">Numero
+                        <input type="text" name="numero" id="numero" placeholder="Numero" size="4"></label>
+
+                    <input type="button" value="Calcular frete" onclick="calcularFrete()">
+                </form>
+                <center>
+                    <p id="frete1"></p>
+                </center>
+            </div>
+
+            <div class="ContainerPrincipal">
+                <div class="container1">
+                    <h4 id="TituloCompra">Pratos diarios</h4>
+                    <div id="Cardapio">
+                        <input type="checkbox" name="CheckBoxGroup" id="FiléFrango" value="Filé de Frango"
+                            data-price="20">Filé de
+                        Frango<br>
+                        <input type="checkbox" name="CheckBoxGroup" id="ContraFilé" value="Contra Filé"
+                            data-price="23">Contra Filé
+                        <br>
+                        <input type="checkbox" name="CheckBoxGroup" id="FiléMignon" value="Filé Mignon"
+                            data-price="28">Filé Mignon
+                        <br>
+                        <input type="checkbox" name="CheckBoxGroup" id="Salmão" value="Salmão" data-price="25">Salmão
+                        <br>
+                    </div>
+
+
+                </div>
+                <div class="container2">
+                    <h4 id="TituloCompra">Pratos do dia</h4>
+                    <div id="Cardapio">
+                        <input type="checkbox" name="CheckBoxGroup" id="Valor" value="Filé de peixe"
+                            data-price="22">Filé Peixe<br>
+                        <input type="checkbox" name="CheckBoxGroup" id="Feijoada" value="Feijoada"
+                            data-price="25">Feijoada<br>
+                        <input type="checkbox" name="CheckBoxGroup" id="Strogonof" value="Strogonof"
+                            data-price="26">Strogonof
+                        R$:26,00<br>
+                        <input type="checkbox" name="CheckBoxGroup" id="CostelaS" value="Costela Suina"
+                            data-price="30">Costela Suina
+                        R$:30,00<br>
+                        <input type="checkbox" name="CheckBoxGroup" id="PicanhaAss" value="Picanha Assada"
+                            data-price="35">Picanha Assada<br>
+                        <input type="checkbox" name="CheckBoxGroup" id="Churrasco" value="Churrasco"
+                            data-price="50">Churrasco<br>
+                    </div>
+
+                </div>
+                <div class="container3">
+                    <h4 id="TituloCompra">Massas</h4>
+                    <div id="Cardapio">
+                        <input type="checkbox" name="CheckBoxGroup" id="ESPAGUETE" value="Espaguete"
+                            data-price="20">Espaguete<br>
+                        <input type="checkbox" name="CheckBoxGroup" id="NHOQUE" value="Nhoque"
+                            data-price="20">Nhoque<br>
+                        <input type="checkbox" name="CheckBoxGroup" id="PANQUECAS" value="Panquecas"
+                            data-price="20">Panquecas<br>
+                    </div>
+                </div>
+                <div class="container4">
+                    <h4 id="TituloCompra">Pastéis</h4>
+                    <div id="Cardapio">
+                        <input type="checkbox" name="CheckBoxGroup" id="CARNE" value="Carne" data-price="10">Carne<br>
+                        <input type="checkbox" name="CheckBoxGroup" id="QUEIJO" value="Queijo"
+                            data-price="10">Queijo<br>
+                        <input type="checkbox" name="CheckBoxGroup" id="PIZZA" value="Pizza" data-price="12">Pizza<br>
+                        <input type="checkbox" name="CheckBoxGroup" id="PALMITO" value="Palmito"
+                            data-price="12">Palmito<br>
+                    </div>
+                </div>
+            </div>
+            <div class="ContainerPrincipal2">
+                <div class="container1">
+                    <h4 id="TituloCompra">Guarnições extras</h4>
+                    <div id="Cardapio">
+                        <input type="checkbox" name="CheckBoxGroup" id="ARROZ" value="Arroz" data-price="10">Arroz<br>
+                        <input type="checkbox" name="CheckBoxGroup" id="BATATAA" value="Batata Assada"
+                            data-price="15.00">Batata Assada<br>
+                        <input type="checkbox" name="CheckBoxGroup" id="FAROFA" value="Farofa" data-price="8">Farofa<br>
+                        <input type="checkbox" name="CheckBoxGroup" id="FEIJÃO" value="Feijão"
+                            data-price="8.50">Feijão<br>
+                        <input type="checkbox" name="CheckBoxGroup" id="BATATAF" value="Batata Frita"
+                            data-price="18.00">Batata Frita<br>
+                        <input type="checkbox" name="CheckBoxGroup" id="POLENTA" value="Polenta"
+                            data-price="16">Polenta<br>
+                    </div>
+                </div>
+                <div class="container2">
+                    <h4 id="TituloCompra">Sobremesas</h4>
+                    <div id="Cardapio">
+                        <input type="checkbox" name="CheckBoxGroup" id="BOLOCHOC" value="Bolo de chocolate"
+                            data-price="30">Bolo de
+                        Chocolate<br>
+                        <input type="checkbox" name="CheckBoxGroup" id="BOLOLAR" value="Bolo de Laranja"
+                            data-price="25">Bolo de Laranja<br>
+                        <input type="checkbox" name="CheckBoxGroup" id="TORTACHOC" value="Torta de chocolate"
+                            data-price="25">Torta
+                        Chocolate<br>
+                        <input type="checkbox" name="CheckBoxGroup" id="BRIGADEIRO" value="Brigadeiro"
+                            data-price="20">Brigadeiro<br>
+                        <input type="checkbox" name="CheckBoxGroup" id="BEIJINHO" value="Beijinho"
+                            data-price="20">Beijinho<br>
+                        <input type="checkbox" name="CheckBoxGroup" id="CUPCAKE" value="Cupcake"
+                            data-price="4">Cupcake<br>
+                    </div>
+                </div>
+                <div class="container3">
+                    <h4 id="TituloCompra">Café da manhã</h4>
+                    <div id="Cardapio">
+                        <input type="checkbox" name="CheckBoxGroup" id="Coxinha" value="Coxinha"
+                            data-price="5">Coxinha<br>
+                        <input type="checkbox" name="CheckBoxGroup" id="MistoQuente" value="Misto Quente"
+                            data-price="7">Misto quente<br>
+                        <input type="checkbox" name="CheckBoxGroup" id="PãoChapa" value="Pão na chapa"
+                            data-price="7">Pão na chapa<br>
+                    </div>
+                </div>
+                <div class="container4">
+                    <h4 id="TituloCompra">Bebidas</h4>
+                    <div id="Cardapio">
+                        <input type="checkbox" name="CheckBoxGroup" id="Coca" value="Coca" data-price="9">Coca 2l <br>
+                        <input type="checkbox" name="CheckBoxGroup" id="Guaraná" value="Guaraná"
+                            data-price="7">Guaraná2l <br>
+                        <input type="checkbox" name="CheckBoxGroup" id="Fanta" value="Fanta" data-price="7">Fanta 2l
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <div id="AdicionarCarrinho">
+                <input type="submit" value="Selecionar items" onclick="AdicionarCarrinho(event)">
+            </div>
+        </form>
+        <div id="DivCarrinho">
+            <div id="ParagrafoCarrinho">
+                <h3 id="Titulo">Item, preço</h3>
+                <p id="Carrinho"></p>
+                <center>
+                    <p id="frete2"></p>
+                </center>
+            </div>
+        </div>
+        <div style="background-color: #555;">
+            <center><button type="reset">Adicionar ao carrinho</button></center>
+        </div>
+
+    </main>
+
+
+    <footer>
+        <div class="box">
+            <h4>São Bernardo</h4>
+            <small>Telefone: (11) 99999-9999</small> <BR>
+            <a href="Mapa.html">Rua A, 303</a>
+            <p>Horário de Funcionamento: Das 6h40 às 22h10. <br> Delivery: Das 08h às 21h30</p>
+        </div>
+        <div class="box1">
+            <h4>Alphaville</h4>
+            <small>Telefone (11) 98888-8888</small> <BR>
+            <a href="Mapa.html">Rua B, 442</a>
+            <p>Horário de Funcionamento: Das 6h40 às 22h10. <br> Delivery: Das 08h às 21h30</p>
+        </div>
+        <div class="box2">
+            <h4>Aeroporto de Congonhas</h4>
+            <small>Telefone (11) 97777-7777</small> <BR>
+            <a href="Mapa.html">Rua C, 019</a>
+            <p>Horário de Funcionamento: Das 6h40 às 22h10. <br> Delivery: Das 08h às 21h30</p>
+        </div>
+
+
+
+    </footer>
+    <div id="Fim">
+        <p>Feito por: Kaic, Pedro, Marcos, Antonio</p>
+    </div>
+
+
+</body>
+
+</html>

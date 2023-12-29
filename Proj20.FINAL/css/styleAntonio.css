@@ -1,0 +1,29 @@
+header {
+    font-family: 'Playfair Display', serif;
+    color: aliceblue;
+    background-color: #2B2B2B;
+    border: #555;
+}
+
+
+nav {
+    background-color: gray;
+}
+
+main {
+    background-color:ghostwhite;   
+    width: auto;
+}
+footer {
+    background-color: gray;
+    font-family: irem;
+    color: ghostwhite;
+}
+
+.p-1 {
+    padding-left: 5vh;
+}
+
+.p-2 {
+    padding-left: 10vh;
+}

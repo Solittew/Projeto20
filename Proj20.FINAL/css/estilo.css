@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&family=Playfair+Display:ital@1&family=Saira+Extra+Condensed:wght@100&display=swap');
+
+header {
+    background-color: #2B2B2B;
+    height: 150px;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    color: aliceblue;
+    text-align: center;
+    grid-area: header;
+    border:#555;
+}
+
+nav 
+{
+    grid-area: nav;
+    background-color:gray;
+    color: white;
+ /* ainda acho que da para melhorarr */
+}
+
+
+
+aside{
+    grid-area: aside;
+}
+main
+{
+    grid-area: main;
+    background-color:ghostwhite;   
+    width: auto;
+    background-image: 'img/Doce.jpeg';
+}
+footer
+{
+    grid-area: footer;
+    background-color: gray;
+    padding: 40px 0;
+    font-family: irem;
+    color: ghostwhite;
+    text-align: center;
+}
+    .box{
+        padding-left: 40px;
+        padding-right: 10px;
+        display: inline-block;
+
+
+    }
+    .box1{
+        padding-left: 40px;
+        padding-right: 10px;
+        display: inline-block;
+    }
+    .box2{
+        padding-left: 40px;
+        padding-right: 10px;
+        display: inline-block;
+    }
+    .box4{
+        padding-left: 13vh;
+        display: flex;
+        flex-direction: row;
+    }
+
+.container
+{
+    display: grid;
+    grid-template-columns:auto ;
+    grid-template-rows:7fr 2fr 15fr 7s;
+    grid-template-areas:"header aside" 
+                        "nav aside"
+                        "main aside"
+                        "footer aside"    
+    ;
+}
+body{
+    background-color: aqua;
+}
+
+/*.bodyBebidas{
+    background-image: url("Img/THUMB-05.JPG");
+}*/
+#BEBIDAS{
+    font-size:larger;
+    position: relative;
+    top: 10px;
+    left: 500px;
+    border-style: solid;
+    background-color: rgba(161, 165, 165, 0.37);
+    border-width: 3px;
+    color: rgb(29, 27, 27);
+    height: fit-content;
+    width: 400px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    
+}
+
+#REFEIÇÕES2{
+    font-size: medium;
+    position: relative;
+    top: 10px;
+    left: 500px;
+    border-style: solid;
+    background-color: rgba(161, 165, 165, 0.37);
+    border-width: 3px;
+    color: white;
+    height: 950px;
+    width: 400px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+}
+
+#PADARIA {
+    font-size: medium;
+    position: relative;
+    top: 10px;
+    left: 500px;
+    border-style: solid;
+    background-color: rgba(161, 165, 165, 0.37);
+    border-width: 3px;
+    color: rgb(29, 27, 27);
+    height: fit-content;
+    width: 350PX;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+}
+
+
+.navbar-toggler{
+    background-color: ghostwhite;
+}
+
+.cardIndex01{
+    display: block;
+    padding: 20px 0;
+}
+
+.cardIndex02
+{
+display: block;
+}
+.CardapioIMG{
+ text-align: center;
+}
+#carousel{
+    text-align: center;
+}
+
+.block{
+    display: inline-block;
+    justify-content: space-between;
+}
+
+
+::-webkit-scrollbar-track {
+    background: darkgray;
+    
+}
+
+::-webkit-scrollbar-thumb {
+    background: gray;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+/*fim da barra de rolagem */
+
+#Fim{
+    text-align: center;
+    background-color: #2B2B2B;
+    color: white;
+}
+
+.CardapioBox1{
+    background-color: gray;
+
+}
+.CardapioBox2{
+
+    background-color: darkgrey;
+
+}
+.CardapioBox3{
+
+    background-color: gray;
+
+}
+.CardapioBox4{
+
+    background-color: darkgray;
+
+}
+
+.Form{
+    
+    justify-content:space-between;
+    display:inline-block;
+}
+.Container1{
+    display: flex;
+    justify-content: center;
+
+}
+.Container0{
+    background-color: #2B2B2B;
+    width: 50vh;
+    height: 50vh;
+    opacity: 0.5;
+    color: white;
+}
+.Login{
+    text-align: center;
+    color: white;
+}
+.Login2{
+    color: white;
+    display: flex;
+    justify-content: center;    
+}
+.conteiner{
+    display: inline-flex;
+    justify-content: flex-end;
+    padding: 5vh;
+}
+.ContainerPrincipal{
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10vh;
+}
+.ContainerPrincipal2{
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+.container1{
+background-color: #555;
+width: 30vh;
+height: 40vh;
+}
+.container2{
+background-color: #555;
+width: 30vh;
+height: 40vh;
+}
+.container3{
+background-color: #555;
+width: 30vh;
+height: 40vh;
+}
+.container4{
+background-color: #555;
+width: 30vh;
+height: 40vh;
+}
+.container5{
+    background-color: #555;
+    width: 100%;
+    height: 60vh;
+    display: inline-flexbox;
+    justify-content: space-between;
+    }
+#TituloCompra{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.p-1 {
+    padding-left: 5vh;
+}
+
+.p-2 {
+    padding-left: 10vh;
+}
+#Titulo{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+#CardapioCardapio{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#CafeIMG{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+#Cardapio{
+    padding-left: 20%;
+}
+#Local{
+    text-align: center;
+}
+#AdicionarCarrinho{
+    text-align: center;
+}
+#DivCarrinho{
+    background-color: #555;
+    display: flex;
+    justify-content: center;
+}
+#Aguardo{
+    background-color: #555;
+}
+#Curriculo{
+    background-color:white;
+    padding-top: 100px;
+    width: 141vh;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#Carrinho{
+    padding-left: 3vh;
+}
+#block1{
+    display: inline-block;
+    justify-content: space-between;
+}
+#BotãoExpansivo{
+    border-bottom-color: ghostwhite;
+    padding-left: 27vh;
+}
+#Botoes{
+    padding-left: 30vh;
+}
+#Frete{
+background-color:#555;
+width: 100%;
+height: 10vh;
+display: flexbox;
+justify-content: space-around;
+padding-top: 3vh;
+padding-left: 2vh;
+}
+#AdicionarCarrinho{
+background-color: #555;
+}
+#frete{
+background-color: #555;
+text-align: center;
+}
+iframe {
+padding: 10px 10px 0px 10px;
+  }
+.h2quem {
+    text-align: center;
+}
+
+.h6quem {
+    text-align: center;
+}
+
+.h2valores {
+    text-align: center;
+}
+.h6valores {
+    text-align: center;
+}
